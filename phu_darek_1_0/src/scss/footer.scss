@@ -1,0 +1,38 @@
+.footer {
+    &_info {
+        @media (max-width: 500px) {
+            display       : flex;
+            flex-direction: column;
+
+            >p {
+                margin-top: 1rem;
+            }
+        }
+
+        @media (min-width: 501px) {
+            display: flex;
+
+            // flex-direction: column;
+            >p {
+                margin-left: 1rem;
+            }
+        }
+
+
+        &_title {
+            font-family: $font-base;
+            font-weight: $font-bold;
+        }
+
+        &_info {
+            font-family: $font-base;
+            font-weight: $font-alt;
+            font-style : italic;
+
+            >span {
+                font-weight: $font-bold;
+                font-style : normal;
+            }
+        }
+    }
+}
