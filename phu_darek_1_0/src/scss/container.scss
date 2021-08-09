@@ -8,8 +8,11 @@ body {
     flex-direction  : column;
     box-sizing      : border-box;
     width           : 100%;
-    background-color: $color-blue;
     height          : 100vh;
+    @media (min-width: 500px) {
+        
+        background-color: $color-blue;
+    }
 
 
     &_header {
