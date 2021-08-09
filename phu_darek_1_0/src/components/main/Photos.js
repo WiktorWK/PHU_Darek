@@ -18,14 +18,13 @@ const Photos = () => {
 
     return (
         <Carousel 
-            centerMode={true}
-            centerSlidePercentage={50}
+            centerMode={false}
             showThumbs={false}
         >
             {imges.map((el, i) => {
                 return (
                     <div  key={i}>
-                        <img  alt="construction site" src={el} />
+                        <img className='main_img'  alt="construction site" src={el} />
                     </div>
                 );
             })}
