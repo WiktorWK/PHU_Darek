@@ -3,7 +3,7 @@ import React from 'react';
 const Logo = () => {
     return (
         <h1 className='header_logo' >
-            PHU Dariusz Formela
+            F.H.U. Dar-Pol Dariusz Formela
         </h1>
     );
 }
