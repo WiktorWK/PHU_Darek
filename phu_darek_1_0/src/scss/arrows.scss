@@ -1,0 +1,26 @@
+.control-arrow {
+}
+
+.control-prev::before {
+    border: none !important;
+    display: block !important;
+    content: '\f053' !important;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 200%;
+    color: $color-logo;
+}
+
+.control-next::before {
+    border: none !important;
+    display: block !important;
+    content: '\f054' !important;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 200%;
+    color: $color-logo;
+}
+
+.dot {
+    background-color: $color-logo !important;
+}

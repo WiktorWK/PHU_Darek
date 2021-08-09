@@ -23,9 +23,9 @@ const BtnSide = ({ props }) => {
 
 
     return (
-        <div className='main_btnside' onClick={(ev) => onClickHandler(ev)} >
+        <button className='main_btnside' onClick={(ev) => onClickHandler(ev)} >
             <span className={classes} />
-        </div>
+        </button>
     );
 }
 
