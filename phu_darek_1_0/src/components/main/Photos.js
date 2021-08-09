@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import { Carousel } from 'react-responsive-carousel';
 
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-
-import BtnSide from './BtnSide';
 
 import img1 from './../../assets/1.jpg';
 import img2 from './../../assets/2.jpg';
@@ -20,7 +18,6 @@ const Photos = () => {
 
     return (
         <Carousel 
-            infiniteLoop={true}
             centerMode={true}
             centerSlidePercentage={50}
             showThumbs={false}
